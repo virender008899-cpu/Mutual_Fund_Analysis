@@ -1,0 +1,38 @@
+Day 1 – Data Quality Summary
+
+1. Data Ingestion
+
+* Loaded all 10 provided CSV datasets using Pandas.
+* Checked dataset shape, data types and first five records.
+* Inspected column names and unique values.
+
+2. Data Cleaning
+
+* Checked missing values and duplicate records.
+* Filled missing values with 0 in the specified dataset.
+* Converted the required date columns into datetime format.
+* Saved all datasets in the CLEAN folder.
+
+3. Live NAV Data
+
+* Fetched NAV data using MFAPI.
+* Retrieved data for 6 mutual fund schemes.
+* Saved the NAV datasets as CSV files in data/raw.
+
+4. Fund Master Exploration
+
+* Explored fund houses.
+* Explored categories and sub-categories.
+* Inspected available risk categories.
+
+5. AMFI Code Validation
+
+* Unique Fund Master codes: 40
+* Unique NAV History codes: 40
+* Missing codes: 0
+
+Result: All 40 unique Fund Master AMFI codes were found in NAV History.
+
+Conclusion
+
+Day 1 data ingestion, initial data inspection, cleaning and AMFI code validation tasks have been completed.
